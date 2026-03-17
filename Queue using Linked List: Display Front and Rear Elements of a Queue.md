@@ -29,8 +29,21 @@ To write a Python program to:
 
 ---
 ## Program
-Add code here
+
+# Reg.No: 212222210020
+# Name: Prithisha S
+
+from collections import deque
+
+q = deque([10, 20, 30])
+
+print("Front:", q[0])
+print("Rear:", q[-1])
 
 ## Output
 
+Front: 10
+Rear: 30
+
 ## Result
+The programs were implemented successfully and the outputs were verified.
