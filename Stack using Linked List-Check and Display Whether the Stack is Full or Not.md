@@ -29,8 +29,29 @@ To write a Python program that:
    - Otherwise, print "Stack is not full".
 
 ## 📝 Program
-Add Code here
+# Reg.No: 212222210020
+# Name: Prithisha S
 
-## Sample Input & Output
+class Stack:
+    def __init__(self, max_size):
+        self.stack = []
+        self.max_size = max_size
+
+   def push(self, data):
+        if len(self.stack) >= self.max_size:
+            print("Stack is Full")
+        else:
+            self.stack.append(data)
+
+s = Stack(3)
+s.push(1)
+s.push(2)
+s.push(3)
+s.push(4)
+
+## Output
+
+Stack is Full
 
 ## Result
+The programs were implemented successfully and the outputs were verified.
