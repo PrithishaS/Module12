@@ -31,8 +31,30 @@ To write a Python program that:
 ---
 
 ## Program
-Add Code Here
+
+# Reg.No: 212222210020
+# Name: Prithisha S
+
+from collections import deque
+
+q = deque()
+
+# Insert
+q.append(10)
+q.append(20)
+q.append(30)
+
+print("Queue:", list(q))
+
+# Delete
+q.popleft()
+
+print("After deletion:", list(q))
 
 ## Output
 
+Queue: [10, 20, 30]
+After deletion: [20, 30]
+
 ## Result
+The programs were implemented successfully and the outputs were verified.
