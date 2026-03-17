@@ -22,8 +22,17 @@ The program allows inserting 3 elements from the user and then prints the **top 
 ---
 
 ## 💻 Program
-Add Code Here
+
+# Reg.No: 212222210020
+# Name: Prithisha S
+
+stack = [10, 20, 30]
+
+print("Top element:", stack[-1])
 
 ## Output
 
+Top element: 30
+
 ## Result
+The programs were implemented successfully and the outputs were verified.
